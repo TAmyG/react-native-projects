@@ -1,6 +1,6 @@
 import React from 'react';
-import {Exer10} from '../exercises/Exer10';
+import {Varios} from '../exercises/Varios';
 
 export const TareaScreen = () => {
-  return <Exer10 />;
+  return <Varios />;
 };
