@@ -12,8 +12,9 @@ import {
   DrawerContentScrollView,
 } from '@react-navigation/drawer';
 import {SettingsScreen} from '../screens/SettingsScreen';
-import {StackNavigator} from './StackNavigator';
+// import {StackNavigator} from './StackNavigator';
 import {styles} from '../theme/appTheme';
+import {Tabs} from './Tabs';
 
 const Drawer = createDrawerNavigator();
 
@@ -27,9 +28,9 @@ export const MenuLateral = () => {
       }}
       drawerContent={props => <MenuInterno {...props} />}>
       <Drawer.Screen
-        name="StackNavigator"
+        name="Tabs"
         options={{title: 'Home', headerShown: false}}
-        component={StackNavigator}
+        component={Tabs}
       />
       <Drawer.Screen
         name="SettingsScreen"
@@ -52,7 +53,7 @@ const MenuInterno = ({navigation}) => {
       <View style={styles.menuContainer}>
         <TouchableOpacity
           style={styles.menuBoton}
-          onPress={() => navigation.navigate('StackNavigator')}>
+          onPress={() => navigation.navigate('Tabs')}>
           <Text style={styles.menuText}>Navegacion</Text>
         </TouchableOpacity>
         <TouchableOpacity
