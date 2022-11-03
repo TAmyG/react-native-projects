@@ -37,6 +37,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = navigationapp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = navigationapp/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-navigationapp-navigationappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-navigationapp-navigationappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2928083B291342A000B5AE08 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-navigationapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navigationapp.debug.xcconfig"; path = "Target Support Files/Pods-navigationapp/Pods-navigationapp.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-navigationapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navigationapp.release.xcconfig"; path = "Target Support Files/Pods-navigationapp/Pods-navigationapp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-navigationapp-navigationappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-navigationapp-navigationappTests.debug.xcconfig"; path = "Target Support Files/Pods-navigationapp-navigationappTests/Pods-navigationapp-navigationappTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +97,14 @@
 			name = navigationapp;
 			sourceTree = "<group>";
 		};
+		2928083A2913426700B5AE08 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2928083B291342A000B5AE08 /* Ionicons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +125,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				2928083A2913426700B5AE08 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* navigationapp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* navigationappTests */,
